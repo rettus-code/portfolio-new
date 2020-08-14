@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import Contact from "../../../../uw-blv-fsf-ft-06-2020-u-c/week-10/19-React/01-Activities/22-Ins_IntroReactRouter/src/components/pages/Contact";
 
 function Contact(props) {
   return (
