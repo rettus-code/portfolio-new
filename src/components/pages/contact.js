@@ -4,6 +4,7 @@ import me from '../images/me.jpg'
 const styles = {
   imgStyle: {
     border: "5px double #9A5A45",
+    marginLeft: "5%"
   }
 };
 
