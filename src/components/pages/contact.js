@@ -1,5 +1,12 @@
 import React from "react";
 import "./index.css";
+import me from '../images/me.jpg'
+const styles = {
+  imgStyle: {
+    border: "5px double #9A5A45",
+  }
+};
+
 
 function Contact(props) {
   return (
@@ -25,7 +32,11 @@ function Contact(props) {
           <h6>Contact Information:</h6>
           <p>Michael S Rettus II  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ph#(360) 499-9260  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  email: michael.rettusii@gmail.com</p>
       </div>
+      <div class="col-lg-2 col-md-1">
+    <img src={me} style={styles.imgStyle} alt="Self Image"/>
     </div>
+    </div>
+    
     <div class="row">
 
       <div class="col-lg-2 col-md-1"></div>
