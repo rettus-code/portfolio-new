@@ -58,7 +58,7 @@ function Contact(props) {
           </div>
           <div class="form-group">
             <label for="exampleFormControlTextarea1">Details and additional return contact information</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="9"></textarea>
           </div>
         </form>
       </div>
