@@ -5,6 +5,7 @@ import fanboy from '../images/fanboy.png'
 import vader from '../images/vader.png'
 import weather from '../images/weather.png'
 import beer from '../images/beer.png'
+import videezy from '../images/videezy.png'
 import PawsLife from '../images/PawsLife.png'
 function Portfolio(props) {
   return (
@@ -77,6 +78,32 @@ function Portfolio(props) {
                 <p class="card-text">First group project. We were required to use 3 APIs to develop an application. My part was to work on the Javascript.</p>
                 <a href="https://domjparker.github.io/brewfinder/" class="btn btn-primary" target="_blank">BrewFinder</a>
                 <a href="https://github.com/domjparker/brewfinder" class="btn btn-primary" target="_blank">Repo Spot</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-6 m-3">
+            <div class="card">
+              <img src={PawsLife} class="card-img-top" alt="PawsLife homepage"/>
+              <div class="card-body">
+                <h5 class="card-title">PawsLife</h5>
+                <p class="card-text">Second group project, we had lofty goals for 5 days work, but it was a lot of fun and came out pretty fantastic.</p>
+                <a href="https://pawslife.herokuapp.com/" class="btn btn-primary" target="_blank">PawsLife</a>
+                <a href="https://github.com/rickyg218/PawsLIfe-" class="btn btn-primary" target="_blank">Repo Spot</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-2 col-md-1"></div>
+          <div class="col-lg-4 col-md-5 col-sm-6 m-3">
+            <div class="card">
+              <img src={videezy} class="card-img-top" alt="Videezy"/>
+              <div class="card-body">
+                <h5 class="card-title">Videezy</h5>
+                <p class="card-text">Final group project. This required us to use a database, and frontend styling we had not worked with before.</p>
+                <a href="https://dropinsamine.herokuapp.com/" class="btn btn-primary" target="_blank">Videezy</a>
+                <a href="https://github.com/epachols/dropin_api" class="btn btn-primary" target="_blank">Front End Repo</a>
+                <a href="https://github.com/NickMardon/DragChat" class="btn btn-primary" target="_blank">Back End Repo</a>
               </div>
             </div>
           </div>
