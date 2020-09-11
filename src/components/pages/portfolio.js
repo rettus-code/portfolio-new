@@ -107,17 +107,6 @@ function Portfolio(props) {
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-5 col-sm-6 m-3">
-            <div class="card">
-              <img src={PawsLife} class="card-img-top" alt="PawsLife homepage"/>
-              <div class="card-body">
-                <h5 class="card-title">PawsLife</h5>
-                <p class="card-text">Second group project, we had lofty goals for 5 days work, but it was a lot of fun.</p>
-                <a href="https://pawslife.herokuapp.com/" class="btn btn-primary" target="_blank">PawsLife</a>
-                <a href="https://github.com/rickyg218/PawsLIfe-" class="btn btn-primary" target="_blank">Repo Spot</a>
-              </div>
-            </div>
-          </div>
         </div>
     </div>
   );
