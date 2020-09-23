@@ -9,7 +9,7 @@ const styles = {
 };
 
 
-function Contact(props) {
+function Contact() {
   return (
     <div class="container col-12">
     <div class="row">
@@ -19,7 +19,7 @@ function Contact(props) {
         </header>
     </div>
     <hr width="70%"/>
-    <div class="row">
+    <div class="row height">
       <div class="col-lg-2 col-md-1"></div>
       <div class="col-lg-4 col-md-6">
         <h2>Social Media</h2>
@@ -42,7 +42,7 @@ function Contact(props) {
 
       <div class="col-lg-2 col-md-1"></div>
       <div class="col-lg-4 col-md-6">
-        <form>
+        {/* <form>
           <div class="form-group">
             <label for="exampleFormControlInput1">Email address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
@@ -61,7 +61,7 @@ function Contact(props) {
             <label for="exampleFormControlTextarea1">Details and additional return contact information</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="9"></textarea>
           </div>
-        </form>
+        </form> */}
       </div>
     </div>
 
