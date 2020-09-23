@@ -7,7 +7,8 @@ import weather from '../images/weather.png'
 import beer from '../images/beer.png'
 import videezy from '../images/videezy.png'
 import PawsLife from '../images/PawsLife.png'
-function Portfolio(props) {
+import Eberron from '../images/Eberron.png'
+function Portfolio() {
   return (
     <div class="container col-12">
       <div class="row">
@@ -102,8 +103,19 @@ function Portfolio(props) {
                 <h5 class="card-title">Videezy</h5>
                 <p class="card-text">Final group project. This required us to use a database, and frontend styling we had not worked with before.</p>
                 <a href="https://dropinsamine.herokuapp.com/" class="btn btn-primary" target="_blank">Videezy</a>
-                <a href="https://github.com/epachols/dropin_api" class="btn btn-primary" target="_blank">Front End Repo</a>
-                <a href="https://github.com/NickMardon/DragChat" class="btn btn-primary" target="_blank">Back End Repo</a>
+                <a href="https://github.com/epachols/dropin_api" class="btn btn-primary" target="_blank">Back End Repo</a>
+                <a href="https://github.com/NickMardon/DragChat" class="btn btn-primary" target="_blank">Front End Repo</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-6 m-3">
+            <div class="card">
+              <img src={Eberron} class="card-img-top" alt="Eberron"/>
+              <div class="card-body">
+                <h5 class="card-title">Eberron</h5>
+                <p class="card-text">Needed something to do so used a table top game I've been playing. Next I'll be adding a DB to allow players and DM to login and edit profiles and possibly expand it's capacity over time to include note taking and possibly chat interactions. I'm focused on it as a mobile application.</p>
+                <a href="https://eberron.herokuapp.com/" class="btn btn-primary" target="_blank">Eberron</a>
+                <a href="https://github.com/rettus-code/DnD" class="btn btn-primary" target="_blank">Repo</a>
               </div>
             </div>
           </div>
